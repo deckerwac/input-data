@@ -7,10 +7,10 @@ def collect_data():
 
     print("\n>.<\n")
 
-    person["name"] = input("[+] Name: ")
-    person["dob"] = input("[+] DOB: ")
-    person["address"] = input("[+] Address: ")
-    person["email"] = input("[+] Email: ")
+    person["name"] = input("[+] 姓名: ")
+    person["dob"] = input("[+] 出生日期: ")
+    person["address"] = input("[+] 地址: ")
+    person["email"] = input("[+] 电子邮件: ")
 
     return person
 
