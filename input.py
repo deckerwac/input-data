@@ -10,7 +10,7 @@ def collect_data():
     person["name"] = input("$ Name: ")
     person["dob"] = input("$ DOB: ")
     person["address"] = input("$ Address: ")
-    person["Email"] = input("$ Email: ")
+    person["email"] = input("$ Email: ")
 
     return person
 
